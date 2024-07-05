@@ -219,7 +219,7 @@ body {
 .opacity-99 {
    opacity: 99%;
 }
-
+/* header section css */
 header {
    display: flex;
    align-items: center;
@@ -228,7 +228,7 @@ header {
    font-weight: 400;
    line-height: 24px;
 }
-
+/* hero section css */
 .hero-section {
    position: relative;
    padding: 120px 0;
@@ -317,11 +317,14 @@ header {
    margin-top: 2px;
 }
 
+/* two-column section css */
+
 .two-column {
    background-color: white;
    padding: 107px 0px 0px 105px;
    display: flex;
    width: 100%;
+   clear: both;
 }
 
 .two-column img{
@@ -377,4 +380,90 @@ header {
    line-height: 31px;
    color:#1B3936;
    font-style: normal;
+}
+
+
+/* about sectio css */
+
+
+.about-section {
+   padding: 75px 60px 110px 38px;
+   position: relative;
+   width: 100%;
+   height: 1624px;
+
+}
+
+.about-section .img-1{
+   width: 400px;
+   height: 525px;
+   position: absolute;
+   right: 60px;
+}
+
+.about-section .img-2{
+   width: 400px;
+   height: 342px;
+   position: absolute;
+   top: 320px;
+}
+
+.about-section .img-3{
+   width: 400px;
+   height: 531px;
+   position: absolute;
+   top: 950px;
+   left: 150px;
+}
+
+.about-section .img-4{
+   width: 400px;
+   height: 531px;
+   position: absolute;
+   top: 980px;
+   right: 150px;
+}
+
+.about-contain {
+   display: block;
+   max-width: 1083px;
+   margin: auto;
+   padding-top: 160px;
+}
+
+.about-contain h6 {
+   text-transform: uppercase;
+   font-family: 'Switzer', sans-serif;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 31px;
+   color: #75FF69;
+   text-align: center;
+   padding-bottom: 31px;
+}
+
+.about-contain p {
+   position: relative;
+   z-index: 2;
+   /* left: 178px; */
+   max-width: 1000px;
+   margin: auto;
+   font-family: 'Boska', serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 68px;
+   line-height: 88px;
+   text-align: center;
+   color: #fff;
+   text-transform: capitalize;
+}
+
+.about-contain p span {
+   color: #678784;
+}
+
+.slider{
+   position: inherit;
+   background-color: white;
+   padding: 100px 0 100px 50px;
 }
