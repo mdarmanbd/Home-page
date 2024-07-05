@@ -570,3 +570,85 @@ header {
    width: 350px;
    height: 505px;
 }
+
+
+/* sign up section css */
+
+
+.sign-up{
+   max-width: 1200px;
+   margin: auto;
+   background: #678784;
+
+}
+
+.bg-sign-up {
+   background-image: url(../../asset/images/sign-up-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   width: 100%;
+   height: 740px;
+   margin-top: 105px;
+   margin-bottom: 105px;
+}
+
+.sign-up .content {
+   display: block;
+   max-width: 705px;
+   margin: auto;
+   padding-top: 170px;
+   padding-bottom: 170px;
+   text-align: center;
+}
+
+.sign-up .content h3 {
+   font-family: 'Boska', serif;
+   font-weight: 400;
+   font-size: 68px;
+   line-height: 88px;
+   text-align: center;
+   color: #fff;
+   text-transform: capitalize;
+}
+
+.sign-up .content h3 span {
+   color: #75FF69;
+}
+
+.sign-up .content p {
+   font-family: 'Switzer', sans-serif;
+   font-weight: 400;
+   max-width: 405px;
+   margin: auto;
+   font-size: 18px;
+   line-height: 24px;
+   text-align: center;
+   color: #fff;
+   padding: 21px 0 60px 0;
+}
+
+
+.sign-up .content .input-field {
+   position: relative;
+   display: flex;
+   align-items: center;
+}
+.sign-up .input-field input {
+   width: 80%;
+   padding: 18px 10px;
+}
+.sign-up .input-field p {
+    background: #75FF69;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    width: 25%;
+    padding: 18px 10px;
+    color: #1B3936;
+    font-family: 'Switzer', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
