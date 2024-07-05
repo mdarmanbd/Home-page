@@ -22,7 +22,7 @@ let prevBtn = document.getElementById('prevBtn');
 let nextBtn = document.getElementById('nextBtn');
 
 let sliderImages = [
-    "img-1.jpg", "img-2.png", "img-3.png", "img-4.png", "img-5.png"
+    "Image-1.png", "Image-2.png", "Image-3.png", "Image-4.png", "Image-5.png", "Image-6.png"
 ];
 
 

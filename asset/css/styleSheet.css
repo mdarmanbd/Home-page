@@ -445,7 +445,6 @@ header {
 .about-contain p {
    position: relative;
    z-index: 2;
-   /* left: 178px; */
    max-width: 1000px;
    margin: auto;
    font-family: 'Boska', serif;
@@ -462,8 +461,112 @@ header {
    color: #678784;
 }
 
-.slider{
-   position: inherit;
+/* slider-section  css*/
+
+
+.slider-section {
    background-color: white;
-   padding: 100px 0 100px 50px;
+   padding-top: 170px;
+   padding-bottom: 170px;
+}
+
+.slider-section h4 {
+   font-family: 'Boska', serif;
+   font-weight: 400;
+   font-size: 68px;
+   line-height: 88px;
+   max-width: 884px;
+   color: #1B3936;
+   padding-left: 125px;
+}
+
+
+.slider-section .slider-1 {
+   padding: 148px 21px 0px 21px;
+}
+.slider-1 .slider {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+.slider .first-slide, .middel-slide, .last-slide {
+   position: relative;
+   z-index: 1;
+}
+
+.slider .first-slide  p {
+   position: absolute;
+   bottom: 55px;
+   left: 60px;
+   font-family: 'Boska', serif;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 41px;
+   text-align: justify;
+   color: #F9F9F9;
+   z-index: 2;
+}
+
+.slider .middel-slide .middel-slide-content {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.middel-slide .middel-slide-content img {
+   cursor: pointer;
+}
+.middel-slide .middel-slide-content h2 {
+   font-family: 'Boska', serif;
+   font-weight: 500;
+   font-size: 68px;
+   line-height: 88px;
+   color: #F9F9F9;
+}
+.middel-slide .content-position {
+   position: absolute; 
+   bottom: 60px; 
+   left: 50px; 
+   right: 50px;
+   z-index: 2;
+}
+.middel-slide p {
+   font-family: 'Switzer', sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 23px;
+   color: #fff;
+   max-width: 380px;
+}
+
+
+.slider .last-slide p {
+   position: absolute;
+   bottom: 55px;
+   left: 60px;
+   font-family: 'Boska', serif;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 41px;
+   text-align: justify;
+   color: #F9F9F9;
+   z-index: 2;
+}
+
+
+#prevSlide {
+   width: 350px;
+   height: 505px;
+  
+}
+
+#activeSlide {
+   width: 550px;
+   height: 778px;
+}
+
+#nextSlide {
+   width: 350px;
+   height: 505px;
 }

@@ -171,12 +171,47 @@
         </section>
         <!---about section end--->
 
-        <div class="slider">
+        <!--- slider section start --->
+        <div class="slider-section">
             <h4>
                 Our unique rooms within the wilderness retreat
             </h4>
+            <div class="slider-1">
+               <div class="slider">
+                    <button id="prevBtn" class="hidden" onclick="prev()">Prev</button>
+                    <div class="first-slide">
+                        <img id="prevSlide" class="slide-item prev" src="/asset/images/sliders/Image-1.png" alt="Slider image 1">
+                        <p>
+                            Majestic Mountain
+                        </p>
+                    </div>
+                    <div class="middel-slide">
+                        <img id="activeSlide" class="slide-item active" src="/asset/sliders/Image-2.png" alt="Slider image 2">
+                        <div class="content-position">
+                            <div class="middel-slide-content">
+                                <h2>
+                                    Cozy Cabin
+                                </h2>
+                                <img width="43px" height="47px" src="asset/images/sliders/right-arrow.png">
+                            </div>
+                            <p>
+                                For the times when life is too much, quit everything and enjoy the woods
+                            </p>
+                        </div>
+                    </div>
+                    <div class="last-slide">
+                        <img id="nextSlide" class="slide-item next" src="/asset/images/sliders/Image-3.png" alt="Slider image 3">
+                        <p>
+                            Majestic Mountain
+                        </p>
+                    </div>
+                    
+                    <button id="nextBtn" onclick="next()">Next</button>
+               </div>
+            </div>
         </div>
 
+         <!--- slider section end ---->
 
 
         <!-- <div class="slider-1">
