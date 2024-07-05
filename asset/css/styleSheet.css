@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+ }
+
+ .font-boska{
+    font-family: 'Boska', serif;
+ }
+
+ .font-poppins{
+    font-family: "Poppins", sans-serif;
+ }
+
+ .font-switzer{
+    font-family: 'Switzer', sans-serif;
+ }
+
+ .font-avenir{
+    font-family: 'Avenir', sans-serif;
+ }
