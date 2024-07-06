@@ -813,3 +813,58 @@ header {
    border: none;
    cursor: pointer;
 }
+
+
+/* contact css   */
+
+.contact-section {
+   background-color: #fff;
+   padding: 70px 0;
+}
+.contact-content{
+   max-width: 1065px;
+   margin:  auto;
+   display: flex;
+   align-items: end;
+   /* background-color: rgb(233, 217, 248); */
+   justify-content: space-between;
+}
+
+.contact-details{
+   max-width: 710px;
+}
+.contact-details p {
+   font-family: 'Boska', serif;
+   font-weight: 400;
+   font-size: 68px;
+   line-height: 88px;
+   color: #1B3936;
+}
+
+.contact-details small {
+   font-family: 'Switzer', sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 23px;
+   color: #1B3936;
+   display: block;
+   padding-bottom: 70px;
+}
+
+.contact-details button {
+   width: 200px;
+   padding: 6px 0;
+   font-family: 'Switzer', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 72px;
+   text-align: justify;
+   color: #1B3936;
+   border: 1px solid #1B3936;
+   border-radius: 60% 50% 60% 50%;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
