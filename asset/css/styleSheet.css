@@ -595,7 +595,7 @@ header {
 
 .sign-up .content {
    display: block;
-   max-width: 705px;
+   max-width: 605px;
    margin: auto;
    padding-top: 170px;
    padding-bottom: 170px;
@@ -633,6 +633,8 @@ header {
    position: relative;
    display: flex;
    align-items: center;
+   max-width: 570px;
+   margin: auto;
 }
 .sign-up .input-field input {
    width: 80%;
@@ -651,4 +653,137 @@ header {
     font-weight: 600;
     font-size: 18px;
     line-height: 23px;
+}
+
+
+/* testimonial-section css*/
+
+
+.testimonial-section {
+   padding: 70px 0px 70px 140px;
+   background-color: #F9F9F9;
+}
+
+.testimonial-section .heading {
+   display: flex;
+   width: 100%;
+
+}
+
+.heading h4 {
+   max-width: 700px;
+   color: #1B3936;
+   font-family: 'Boska', serif;
+   font-weight: 400;
+   font-size: 68px;
+   line-height: 88px;
+
+}
+
+.heading p {
+    font-family: 'Switzer', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1B3936;
+    max-width: 380px;
+    margin: 0 auto;
+    display: flex;
+    align-items: end;
+
+}
+
+.testimonial-slider {
+   padding-top: 170px;
+   padding-bottom: 130px;
+  
+}
+
+.testimonial-slider .t-slider {
+   display: flex;
+   gap: 100px;
+}
+
+.item-1 {
+   position: relative;
+   
+
+}
+
+.item-1 > img {
+   width: 330px;
+   height: 477px;
+}
+
+.item-1 .item-content {
+   position: absolute;
+   bottom: 13px;
+   left: -80px;
+   background-color: #fff;
+   padding: 15px 10px;
+   max-width: 400px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.item-content .sub-title {
+   font-family: 'Switzer', sans-serif;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 29px;
+   color: #1B3936;
+   padding: 8px 0;
+}
+
+.item-content .sub-text {
+   font-family: 'Switzer', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   color: #1B3936;
+   opacity: 0.4;
+}
+
+.item-content .sub-text span {
+   color: #1B3936;
+   opacity: 0.2;
+}
+
+.item-2 {
+   position: relative;
+}
+
+.item-2 > img {
+   width: 330px;
+   height: 477px;
+}
+
+.item-2 .item-content {
+   position: absolute;
+   bottom: 13px;
+   left: -80px;
+   background-color: #fff;
+   padding: 15px 10px;
+   max-width: 400px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.item-3 {
+   position: relative;
+   
+}
+
+.item-3 > img {
+   width: 330px;
+   height: 477px;
+}
+
+.item-3 .item-content {
+   position: absolute;
+   bottom: 13px;
+   left: -80px;
+   background-color: #fff;
+   padding: 15px 10px;
+   max-width: 400px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
