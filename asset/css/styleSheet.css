@@ -695,7 +695,7 @@ header {
 
 .testimonial-slider {
    padding-top: 170px;
-   padding-bottom: 130px;
+   padding-bottom: 70px;
   
 }
 
@@ -786,4 +786,30 @@ header {
    padding: 15px 10px;
    max-width: 400px;
    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.trigger-buttons {
+   display: flex;
+   margin-top: 120px;
+   justify-content: center;
+   gap: 30px;
+}
+
+.trigger-buttons .right-button {
+   width: 60px;
+   height: 60px;
+   background-color: #1B3936;
+   border-radius: 50px ;
+   border: none;
+   cursor: pointer;
+}
+
+.trigger-buttons .left-button {
+   width: 60px;
+   height: 60px;
+   background-color: #75FF69;
+   border-radius: 50px ;
+   border: none;
+   cursor: pointer;
 }
