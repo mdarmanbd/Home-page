@@ -449,7 +449,6 @@ header {
    margin: auto;
    font-family: 'Boska', serif;
    font-weight: 400;
-   font-style: italic;
    font-size: 68px;
    line-height: 88px;
    text-align: center;
@@ -868,3 +867,105 @@ header {
    justify-content: center;
 }
 
+
+/* footer css  */
+
+
+.footer-top-content {
+   display: flex;
+   
+}
+
+.footer-top-content .about {
+   position: relative;
+   background-color: #75FF69;
+   text-align: center;
+   width: 480px;
+   padding: 100px 0;
+}
+
+.footer-top-content .about p {
+   color: #1B3936;
+   font-family: 'Boska', serif;
+   font-weight: 400;
+   font-size: 68px;
+   line-height: 88px;
+}
+
+.footer-top-content .about small {
+   font-family: 'Switzer', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+   color: #1B3936;
+   margin-left: -60px;
+}
+
+.footer-top-content .about img {
+   position: absolute;
+   bottom: 36px;
+   right: 30px;
+}
+
+.footer-top-content .room {
+   padding-top: 127px;
+   padding-left: 128px;
+   max-width: 270px;
+}
+
+.footer-top-content .room small {
+   font-family: 'Switzer', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 21px;
+   color: #fff;
+}
+
+.footer-top-content .room h3 {
+   color: #fff;
+   font-family: 'Boska', serif;
+   font-weight: 400;
+   font-size: 68px;
+   line-height: 88px;
+}
+.d-flex{
+   display: flex;
+   align-items: center;
+}
+
+.justify-content-between{
+   justify-content: space-between;
+}
+
+.g-20{
+   gap: 20px;
+}
+
+.ml-150 {
+   margin-left: 150px;
+}
+
+/* footer-bottom */
+
+
+.footer-bottom{
+   background-color: #fff;
+   padding: 20px 0;
+}
+
+.footer-bottom ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+   list-style: none;
+}
+
+
+.footer-bottom ul li a {
+   font-family: 'Switzer', sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   color: #1B3936;
+   line-height: 24px;
+}
