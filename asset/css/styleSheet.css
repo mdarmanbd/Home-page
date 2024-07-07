@@ -1,191 +1,3 @@
-/* *{
-    padding: 0px;
-    margin: 0px;
-    outline: 0px;
-    box-sizing: border-box;
-    text-decoration: none;
-    background-color: #1B3936;
- }
-
- .font-boska{
-    font-family: 'Boska', serif;
- }
-
- .font-poppins{
-    font-family: "Poppins", sans-serif;
- }
-
- .font-switzer{
-    font-family: 'Switzer', sans-serif;
- }
-
- .font-avenir{
-    font-family: 'Avenir', sans-serif;
- }
- .color-white{
-    color: #fff;
- }
- .pl-55{
-    padding-left: 55px;
- }
- .pl-40{
-    padding-left: 40px;
- }
- .ml-auto{
-    margin-left: auto;
- }
- .opacity-99{
-    opacity: 99%;
- }
- .border-line{
-    position: relative;
-   
- }
- .border-line .line{
-    position: absolute;
-    top: -175px;
-    left: 110px;
-    opacity: 50%;
-    border: 2px;
- }
- 
- header{
-    width: 1214px;
-    display: flex;
-    align-items: center;
-    margin: 30px 80px 0 145px;
-    font-family: 'Switzer', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    
- }
- .hero-section{
-   position: relative;
-   padding: 120px 0;
- }
- .bg-hero{
-    background-image: url(../../asset/images/hero.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    position: absolute;
-    
-    top: 120px;
-    left: 435px;
-    opacity: 99;
-    width: 570px;
-    height: 570px;
-    z-index: 1; 
- }
- .hero-contain{
-    background: none;
-    
- }
- .hero-contain h3, small {
-    background: none;
- }
- .hero-contain .cosy {
-    position: absolute;
-    top: -50px;
-    left: 0px;
-    font-size: 260px;
-    font-family: 'Boska', serif;
-    font-weight: 400;
-    line-height: 160px;
-    font-style: italic;
-    color: #fff;
- }
-
- .hero-contain .cabin {
-    position: absolute;
-    top: 165px;
-    left: 150px;
-    font-size: 260px;
-    font-family: 'Boska', serif;
-    font-weight: 400;
-    line-height: 185px;
-    font-style: italic;
-    color: #75FF69;
- }
- .hero-contain .in {
-    position: absolute;
-    top: 360px;
-    left: 230px;
-    font-size: 32px;
-    font-family: 'Boska', serif;
-    font-weight: 700;
-    line-height: 41px;
-    font-style: italic;
-    color: #fff;
- }
-
- .hero-contain .woods {
-    position: absolute;
-    top: 395px;
-    left: -100px;
-    font-size: 260px;
-    font-family: 'Boska', serif;
-    font-weight: 400;
-    line-height: 160px;
-    font-style: italic;
-    color: #fff;
- }
- .hero-contain .jack{
-    position: absolute;
-    top: 600px;
-    left: 0px;
-    font-size: 18px;
-    font-family: 'Switzer', sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    color: #fff;
-    text-align: center;
- }
-.play{
-    background: #75FF69;
-    border-radius: 50px;
-    width: 70px;
-    height: 70px;
-    border: 5px solid rgba(27, 57, 54, 0.5);
-    position: absolute;
-    top: 385px;
-    right: 50px;
-    cursor: pointer;
-}
-
-.play img{
-    background: none;
-    margin-left: 6px;
-    margin-top: 2px;
-}
-
-.two-column{
-   background-color: white;
-   clear: both; 
-   margin-top: 670px; 
-   padding: 20px; 
-}
-
-.two-column h3{
-   background-color: white;
-   position: absolute;
-}
-
-
-
- .slider-1 {
-    float: left;
-    height: 100px;
-    width: 100%;
- }
-
- .hidden {
-    display: none;
- } */
-
- 
-
 
 * {
    padding: 0;
@@ -223,6 +35,7 @@ body {
 .border-line {
    position: relative;
    width: 100%;
+   height: 1080px;
 }
 
 .line {
@@ -267,7 +80,7 @@ header {
 
 .hero-contain {
    position: relative;
-   text-align: center;
+   /* text-align: center; */
    color: #fff;
 }
 
@@ -276,46 +89,60 @@ header {
 }
 
 .hero-contain .cosy {
+   position: absolute;
+   top: -50px;
+   left: 0px;
    font-size: 260px;
    font-family: 'Boska', serif;
    font-weight: 400;
    line-height: 160px;
-   font-style: italic;
-   color: #fff;
 }
 
 .hero-contain .cabin {
+   position: absolute;
+   top: 165px;
+   left: 155px;
+   font-style: italic;
    font-size: 260px;
    font-family: 'Boska', serif;
    font-weight: 400;
    line-height: 185px;
-   font-style: italic;
    color: #75FF69;
 }
 
 .hero-contain .in {
+   position: absolute;
+   top: 370px;
+   left: 230px;
    font-size: 32px;
    font-family: 'Boska', serif;
    font-weight: 700;
    line-height: 41px;
-   font-style: italic;
    color: #fff;
+
 }
 
 .hero-contain .woods {
+   position: absolute;
+   top: 385px;
+   left: -100px;
    font-size: 260px;
    font-family: 'Boska', serif;
    font-weight: 400;
    line-height: 160px;
-   font-style: italic;
+  
    color: #fff;
 }
 
 .hero-contain .jack {
+   position: absolute;
+   top: 600px;
+   left: 0px;
    font-size: 18px;
    font-family: 'Switzer', sans-serif;
    font-weight: 400;
    line-height: 24px;
+   color: #fff;
    text-align: center;
 }
 
@@ -326,7 +153,7 @@ header {
    height: 70px;
    border: 5px solid rgba(27, 57, 54, 0.5);
    position: absolute;
-   top: 343px;
+   top: 444px;
    right: 60px;
    cursor: pointer;
 }
@@ -380,9 +207,8 @@ header {
 .two-column .forest h4{
    font-family: 'Boska', serif;
    font-weight: 700;
-   font-style: italic;
    font-size: 100px;
-   line-height: 60px;
+   line-height: 80px;
    color:#1B3936;
 }
 
