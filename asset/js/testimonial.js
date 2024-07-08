@@ -16,34 +16,35 @@ let activeTestimonialIndex = 1;
 fillSliderWithTestimonials();
 
 function moveToNextTestimonial() {
-    console.log("hello");
     if (activeTestimonialIndex < testimonials.length - 2) {
         activeTestimonialIndex++;
 
         fillSliderWithTestimonials();
 
         if (activeTestimonialIndex === testimonials.length - 2) {
-            activeTestimonialIndex = 1;
+            prevTextimonialBtn.classList.add('active-button');
+            nextTextimonialBtn.classList.remove('active-button');
         }
     } else {
-        activeTestimonialIndex = 1;
+        prevTextimonialBtn.classList.add('active-button');
+        nextTextimonialBtn.classList.remove('active-button');
     }
-
 }
 
 function moveToPrevTestimonial() {
-    if (activeTestimonialIndex < testimonials.length - 2) {
-        activeTestimonialIndex++;
+    if (activeTestimonialIndex > 1) {
+        activeTestimonialIndex--;
 
         fillSliderWithTestimonials();
 
-        if (activeTestimonialIndex === testimonials.length - 2) {
-            activeTestimonialIndex = 1;
+        if (activeTestimonialIndex === 1) {
+            prevTextimonialBtn.classList.remove('active-button');
+            nextTextimonialBtn.classList.add('active-button');
         }
     } else {
-        activeTestimonialIndex = 1;
+        prevTextimonialBtn.classList.remove('active-button');
+        nextTextimonialBtn.classList.add('active-button');
     }
-
 }
 
 
