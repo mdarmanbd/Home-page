@@ -17,7 +17,7 @@ fillSliderWithImages();
 function next() {
     if (activeSliderIndex < sliderImages.length - 2) {
         activeSliderIndex++;
-        
+
         fillSliderWithImages();
 
         if (activeSliderIndex === sliderImages.length - 2) {

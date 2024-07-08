@@ -196,14 +196,14 @@
                         </p>
                     </div>
                     <div class="middel-slide">
-                        <img id="activeSlide" class="slide-item active" src="/asset/sliders/Image-2.png" alt="Slider image 2">
+                        <img id="activeSlide" class="slide-item active" src="/asset/images/sliders/Image-2.png" alt="Slider image 2">
                         <div class="content-position">
                             <div class="middel-slide-content">
                                 <h2>
                                     Cozy Cabin
                                 </h2>
                                 <button id="nextBtn" onclick="next()">
-                                    <img width="43px" height="47px" src="asset/images/sliders/right-arrow.png">
+                                    <img width="43px" height="47px" src="/asset/images/sliders/right-arrow.png">
                                 </button>
                             </div>
                             <p>
@@ -260,8 +260,8 @@
 
            <div class="testimonial-slider">
                 <div class="t-slider">
-                    <div id="slideOne" class="item-1">
-                        <img src="asset/images/testimonial-slider/Image-1.png">
+                    <div class="item-1">
+                        <img id="prevTestimonial" src="asset/images/testimonials/Image-1.png">
                         <div class="item-content">
                             <img width="20px" height="20px" src="asset/images/testimonial-slider/victor.png">
                             <p class="sub-title">
@@ -275,8 +275,8 @@
                             </p>
                         </div>
                     </div>
-                    <div id="slideTwo" class="item-2">
-                        <img src="asset/images/testimonial-slider/Image-2.png">
+                    <div class="item-2">
+                        <img id="activeTestimonial" src="asset/images/testimonials/Image-2.png">
                         <div class="item-content">
                             <img width="20px" height="20px" src="asset/images/testimonial-slider/victor.png">
                             <p class="sub-title">
@@ -290,8 +290,8 @@
                             </p>
                         </div>
                     </div>
-                    <div id="slideThree" class="item-3">
-                        <img src="asset/images/testimonial-slider/Image-3.png">
+                    <div class="item-3">
+                        <img id="nextTestimonial" src="asset/images/testimonials/Image-3.png">
                         <div class="item-content">
                             <img width="20px" height="20px" src="asset/images/testimonial-slider/victor.png">
                             <p class="sub-title">
@@ -307,11 +307,11 @@
                     </div>
                 </div>
                 <div class="trigger-buttons">
-                    <button onclick="leftButton()" class="right-button">
+                    <button id="prevTextimonialBtn" onclick="moveToPrevTestimonial()" class="round-button ">
                         <img width="20px" height="20px" src="asset/images/testimonial-slider/left-arrow.png">
                     </button>
-                    <button onclick="rightButton()" class="left-button">
-                        <img src="asset/images/testimonial-slider/right-arrow.png">
+                    <button id="nextTestimonialBtn" onclick="moveToNextTestimonial()" class="round-button active-button">
+                        <img width="20px" height="20px" src="asset/images/testimonial-slider/right-arrow.png">
                     </button>
                 </div>
            </div>
@@ -405,6 +405,7 @@
         </footer>
         <!--- footer end --->
 
-        <script src="./asset/js/index.js"></script>
+        <script src="./asset/js/slider.js"></script>
+        <script src="./asset/js/testimonial.js"></script>
    </body>
 </html>  

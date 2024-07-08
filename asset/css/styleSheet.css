@@ -348,7 +348,7 @@ header {
    display: flex;
    justify-content: center;
    align-items: center;
-   gap: 8px;
+   gap: 10px;
 }
 .slider .first-slide, .middel-slide, .last-slide {
    position: relative;
@@ -418,13 +418,13 @@ header {
 
 
 #prevSlide {
-   width: 350px;
+   width: 378px;
    height: 505px;
   
 }
 
 #activeSlide {
-   width: 550px;
+   width: 580px;
    height: 778px;
 }
 
@@ -661,7 +661,7 @@ header {
    gap: 30px;
 }
 
-.trigger-buttons .right-button {
+ .round-button {
    width: 60px;
    height: 60px;
    background-color: #1B3936;
@@ -670,13 +670,8 @@ header {
    cursor: pointer;
 }
 
-.trigger-buttons .left-button {
-   width: 60px;
-   height: 60px;
+.active-button {
    background-color: #75FF69;
-   border-radius: 50px ;
-   border: none;
-   cursor: pointer;
 }
 
 
