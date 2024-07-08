@@ -1,30 +1,14 @@
-// let DOM = `
-//     <div class="slider">
-//                 <button id="prevBtn" class="hidden" onclick="prev()">Prev</button>
-//                 <img id="prevSlide" width="100px" height="100px" class="slide-item prev" src="/asset/images/Logo.png" alt="Slider image 1">
-//                 <img id="activeSlide" width="200px" height="200px" class="slide-item active" src="/asset/images/Logo.png" alt="Slider image 1">
-//                 <img id="nextSlide" width="100px" height="100px" class="slide-item next" src="/asset/images/Logo.png" alt="Slider image 1">
-//                 <button id="nextBtn" onclick="next()">Next</button>
-//            </div>
-// `;
-
-// let target = document.getElementById('slider1');
-
-// console.log(target);
-
-// target.innerHTML = DOM;
 
 let prevSlide = document.getElementById('prevSlide');
 let activeSlide = document.getElementById('activeSlide');
 let nextSlide = document.getElementById('nextSlide');
 
-let prevBtn = document.getElementById('prevBtn');
 let nextBtn = document.getElementById('nextBtn');
+
 
 let sliderImages = [
     "Image-1.png", "Image-2.png", "Image-3.png", "Image-4.png", "Image-5.png", "Image-6.png"
 ];
-
 
 let activeSliderIndex = 1;
 
@@ -33,46 +17,20 @@ fillSliderWithImages();
 function next() {
     if (activeSliderIndex < sliderImages.length - 2) {
         activeSliderIndex++;
-
+        
         fillSliderWithImages();
 
         if (activeSliderIndex === sliderImages.length - 2) {
-            hideNextBtn();
+            activeSliderIndex = 1;
         }
     } else {
-        hideNextBtn();
+        activeSliderIndex = 1;
     }
 
-}
-
-function prev() {
-    if (activeSliderIndex > 1) {
-        activeSliderIndex--;
-
-        fillSliderWithImages();
-
-        if (activeSliderIndex === 1) {
-            hidePrevBtn();
-        }
-
-    } else {
-        hidePrevBtn();
-    }
 }
 
 function fillSliderWithImages() {
     prevSlide.setAttribute('src', "/asset/images/sliders/" + sliderImages[activeSliderIndex - 1]);
     activeSlide.setAttribute('src', "/asset/images/sliders/" + sliderImages[activeSliderIndex]);
     nextSlide.setAttribute('src', "/asset/images/sliders/" + sliderImages[activeSliderIndex + 1]);
-
-}
-
-function hideNextBtn() {
-    nextBtn.classList.add('hidden');
-    prevBtn.classList.remove('hidden');
-}
-
-function hidePrevBtn() {
-    prevBtn.classList.add('hidden');
-    nextBtn.classList.remove('hidden');
 }

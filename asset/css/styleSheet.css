@@ -46,7 +46,6 @@ body {
     margin: auto;
     left: 100px;
     z-index: 1;
-    /* height: 1188px; */
     overflow: hidden;
 }
 
@@ -80,7 +79,6 @@ header {
 
 .hero-contain {
    position: relative;
-   /* text-align: center; */
    color: #fff;
 }
 
@@ -167,6 +165,7 @@ header {
 
 .two-column {
    position: relative;
+   top: -30px;
    z-index: 2;
    background-color: white;
    padding: 107px 0px 0px 105px;
@@ -230,12 +229,17 @@ header {
    font-style: normal;
 }
 
+/* bennar sectio css */
+
+.bennar-section {
+   position: relative;
+   top: -30px;
+}
 
 /* about sectio css */
 
-
 .about-section {
-   padding: 75px 60px 110px 38px;
+   padding: 45px 60px 110px 38px;
    position: relative;
    width: 100%;
    height: 1624px;
@@ -308,7 +312,16 @@ header {
    color: #678784;
 }
 
+/* wave-img section css*/
+.wave-img{
+   margin-bottom: -6px;
+}
+
 /* slider-section  css*/
+
+.hidden {
+   display: none;
+}
 
 .slider-section {
    background-color: white;
@@ -333,6 +346,7 @@ header {
 .slider-1 .slider {
    width: 100%;
    display: flex;
+   justify-content: center;
    align-items: center;
    gap: 8px;
 }
@@ -359,10 +373,12 @@ header {
    align-items: center;
    justify-content: space-between;
 }
-
-.middel-slide .middel-slide-content img {
+.middel-slide .middel-slide-content button {
+   background-color: transparent;
+   border: none;
    cursor: pointer;
 }
+
 .middel-slide .middel-slide-content h2 {
    font-family: 'Boska', serif;
    font-weight: 500;
@@ -506,13 +522,14 @@ header {
 
 
 .testimonial-section {
-   padding: 70px 0px 70px 140px;
+   padding: 70px 0px 70px 0px;
    background-color: #F9F9F9;
 }
 
 .testimonial-section .heading {
    display: flex;
    width: 100%;
+   padding-left: 140px;
 
 }
 
@@ -540,6 +557,8 @@ header {
 }
 
 .testimonial-slider {
+   padding-left: 155px;
+   overflow-x: hidden;
    padding-top: 170px;
    padding-bottom: 70px;
   
@@ -547,7 +566,7 @@ header {
 
 .testimonial-slider .t-slider {
    display: flex;
-   gap: 100px;
+   gap: 130px;
 }
 
 .item-1 {
@@ -564,7 +583,7 @@ header {
 .item-1 .item-content {
    position: absolute;
    bottom: 13px;
-   left: -80px;
+   left: -90px;
    background-color: #fff;
    padding: 15px 10px;
    max-width: 400px;
@@ -606,7 +625,7 @@ header {
 .item-2 .item-content {
    position: absolute;
    bottom: 13px;
-   left: -80px;
+   left: -90px;
    background-color: #fff;
    padding: 15px 10px;
    max-width: 400px;
@@ -627,7 +646,7 @@ header {
 .item-3 .item-content {
    position: absolute;
    bottom: 13px;
-   left: -80px;
+   left: -90px;
    background-color: #fff;
    padding: 15px 10px;
    max-width: 400px;
